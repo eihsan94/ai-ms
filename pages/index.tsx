@@ -7,10 +7,8 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import type { NextPage } from "next";
-import theme from "../styles/theme";
 
 const Home: NextPage = () => {
-  const [isNotSmallerScreen] = useMediaQuery("(min-width: 600px");
 
   return (
     <VStack w="full" h="full" p={10} spacing={10} alignItems="flex-start">
