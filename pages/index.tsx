@@ -1,11 +1,4 @@
-import {
-  Box,
-  Button,
-  Heading,
-  Text,
-  useMediaQuery,
-  VStack,
-} from "@chakra-ui/react";
+import { Box, Button, Heading, Text, VStack } from "@chakra-ui/react";
 import type { NextPage } from "next";
 
 const Home: NextPage = () => {

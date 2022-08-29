@@ -1,17 +1,17 @@
 import { Container } from "@chakra-ui/react";
 import { FC, ReactNode } from "react";
-import Header from "../components/Navigate/Header";
+import EditorMenu from "../components/Navigate/EditorMenu";
 
 interface Props {
   children?: ReactNode;
 }
-const Layout: FC<Props> = ({ children }) => {
+const Layout2: FC<Props> = ({ children }) => {
   return (
     <>
-      <Header />
+      <EditorMenu />
       <Container maxW="7xl">{children}</Container>
     </>
   );
 };
 
-export default Layout;
+export default Layout2;
