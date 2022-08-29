@@ -22,18 +22,24 @@ function Home() {
             <TabPanel>
               <HStack>
                 <Box>
-                  <SimpleGrid spacing={5} columns={{ base: 2, md: 4, xl: 6 }} mt="32px">
-                    <ImageCard id="1" />
-                    <ImageCard id="1" />
-                    <ImageCard id="1" />
-                    <ImageCard id="1" />
+                  <SimpleGrid
+                    spacing={5}
+                    columns={{ base: 2, md: 4, xl: 6 }}
+                    mt="32px"
+                  >
+                    <ImageCard id="1" w="176px" h="176" />
+                    <ImageCard id="1" w="176px" h="176" />
+                    <ImageCard id="1" w="176px" h="176" />
+                    <ImageCard id="1" w="176px" h="176" />
                   </SimpleGrid>
-                  <Text mt="15px"
+                  <Text
+                    mt="15px"
                     fontWeight="700"
                     fontSize="12px"
                     lineHeight="16px"
                   >
-                    Landscape painting of forest and castle in the style of realism
+                    Landscape painting of forest and castle in the style of
+                    realism
                   </Text>
                 </Box>
                 <CloseIcon />
@@ -53,7 +59,7 @@ function Home() {
         </Tabs>
       </HStack>
     </Layout>
-  )
+  );
 }
 
 export default Home;
