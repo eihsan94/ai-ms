@@ -17,7 +17,7 @@ const Home: NextPage = () => {
           MARBLE
         </Heading>
         <Text top={136} fontSize="xl" fontWeight="bold">
-          AI Image generator for multi language
+          AI Image generator for multi language jzjhkhjshjksjh
         </Text>
       </VStack>
 
